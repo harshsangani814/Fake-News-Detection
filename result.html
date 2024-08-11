@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        .result {
+            padding: 20px;
+            border-radius: 5px;
+            margin: 50px auto;
+            width: 500px;
+        }
+
+        .true {
+            background-color: light green;
+        }
+
+        .false {
+            background-color: light coral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <div class="result {{ prediction }}">
+        <p>The news is predicted to be: <b>{{ prediction }}</b></p>
+    </div>
+    <a href="/">Back to Home</a>
+</body>
+</html>
